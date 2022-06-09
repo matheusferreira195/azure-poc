@@ -9,12 +9,12 @@
 		"language": "python",
 		"jobProperties": {
 			"name": "Spark job definition 1",
-			"file": "abfss://raw@storageesethteste.dfs.core.windows.net/teste.py",
+			"file": "abfss://raw@storageesethteste.dfs.core.windows.net/synapse/workspaces/pocairflow/batchjobs/Spark%20job%20definition%201/teste.py",
 			"conf": {
 				"spark.dynamicAllocation.enabled": "false",
 				"spark.dynamicAllocation.minExecutors": "1",
 				"spark.dynamicAllocation.maxExecutors": "1",
-				"spark.autotune.trackingId": "544b5c15-58b5-4731-af85-d94bdab42064"
+				"spark.autotune.trackingId": "e7cc2904-2c61-4ba6-a98b-9b9806656a19"
 			},
 			"args": [],
 			"jars": [],
