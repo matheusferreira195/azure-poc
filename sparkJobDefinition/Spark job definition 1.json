@@ -14,10 +14,10 @@
 				"spark.dynamicAllocation.enabled": "false",
 				"spark.dynamicAllocation.minExecutors": "1",
 				"spark.dynamicAllocation.maxExecutors": "1",
-				"spark.autotune.trackingId": "bbe6c3d4-9aec-40d8-8278-d883814bf2ae"
+				"spark.autotune.trackingId": "5868a82f-e425-4949-ba0c-ca7703dda0a8"
 			},
 			"args": [
-				"abfss://raw@storageesethteste.dfs.core.windows.net/shakespeare.txt,",
+				"abfss://raw@storageesethteste.dfs.core.windows.net/shakespeare.txt",
 				"abfss://raw@storageesethteste.dfs.core.windows.net/results"
 			],
 			"jars": [],
