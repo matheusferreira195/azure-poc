@@ -9,14 +9,17 @@
 		"language": "python",
 		"jobProperties": {
 			"name": "Spark job definition 1",
-			"file": "abfss://raw@storageesethteste.dfs.core.windows.net/synapse/workspaces/pocairflow/batchjobs/Spark%20job%20definition%201/teste.py",
+			"file": "abfss://raw@storageesethteste.dfs.core.windows.net/wordcount.py",
 			"conf": {
 				"spark.dynamicAllocation.enabled": "false",
 				"spark.dynamicAllocation.minExecutors": "1",
 				"spark.dynamicAllocation.maxExecutors": "1",
-				"spark.autotune.trackingId": "e7cc2904-2c61-4ba6-a98b-9b9806656a19"
+				"spark.autotune.trackingId": "923c6ffc-6d3a-4b92-a50c-361b50179ed5"
 			},
-			"args": [],
+			"args": [
+				"abfss://raw@storageesethteste.dfs.core.windows.net/shakespeare.txt,",
+				"abfss://raw@storageesethteste.dfs.core.windows.net/results"
+			],
 			"jars": [],
 			"pyFiles": [],
 			"files": [],
